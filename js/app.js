@@ -40,7 +40,7 @@ document.querySelector(`.footer h2`) .style.opacity=1;
 //javascript letras type
 
 // function([string1, string2],target id,[color1,color2])    
- consoleText(['HOLA,BIENVENIDO.', 'SOY PROGRAMADOR', 'SOY DESARROLLADOR DE SOFTWARE'], 'text',['tomato','orange','lightblue']);
+ consoleText(['<HOLA,BIENVENIDO./>', '<SOY PROGRAMADOR/>', '<SOY DESARROLLADOR DE SOFTWARE/>'], 'text',['tomato','orange','lightblue']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
